@@ -4,8 +4,19 @@ namespace ConsoleApp2
 {
     class Program
     {
+        /// <summary>
+        /// Print to the standard output "sg".
+        /// </summary>
+        /// <param name="num">Waiting for some number.</param>
+        /// <param name="poop">Some shitty thing.</param>
+        static void something(int num, string poop)
+        {
+            Console.WriteLine("SG");
+            
+        }
         static void Main(string[] args)
         {
+            something(10,"shit");
             Console.WriteLine("Tipe in the size of the minefield.\nFormat: <width height>\nMin: 10 x 10\nMax 30 x 30");
             Console.ReadKey();
             Console.WriteLine("10 15");
@@ -28,7 +39,8 @@ namespace ConsoleApp2
 
 
 
-
+                //camelCase
+                const int i_MAX_N = 30;
 
                 Console.Write(j < 9 ? $" {j + 1}  " : $"{j + 1}  ");
                 for (int i = 0; i < 15; i++)
