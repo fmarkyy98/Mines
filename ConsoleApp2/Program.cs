@@ -25,6 +25,11 @@ namespace ConsoleApp2
             Console.WriteLine("\n");
             for (int j = 0; j < 10; j++)
             {
+
+
+
+
+
                 Console.Write(j < 9 ? $" {j + 1}  " : $"{j + 1}  ");
                 for (int i = 0; i < 15; i++)
                 {
